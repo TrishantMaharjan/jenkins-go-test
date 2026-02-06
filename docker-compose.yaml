@@ -1,6 +1,8 @@
 services:
   backend:
-    image: go-test:v1.1
+    build:
+      context: backend
+      dockerfile: Dockerfile
     volumes:
       - ./db/password.txt:/run/secrets/db-password:ro
     depends_on:
