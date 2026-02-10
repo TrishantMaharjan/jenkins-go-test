@@ -73,6 +73,8 @@ nginx-golang-postgres-proxy-1     "/docker-entrypoint.…"   proxy              
 After the application starts, navigate to `http://localhost:80` in your web browser or run:
 ```shell
 $ curl localhost:80
+
+You can also use jenkins to build and deploy it, jenkinsfile is in the project
 ["Blog post #0","Blog post #1","Blog post #2","Blog post #3","Blog post #4"]
 ```
 
